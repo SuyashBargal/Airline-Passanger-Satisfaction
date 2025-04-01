@@ -80,6 +80,10 @@ Several machine learning models were trained and evaluated:
 
 The dataset contains various customer feedback and flight-related features, such as seat comfort, in-flight service, cleanliness, flight distance, delay times, and travel class. Ensure the dataset is available in the appropriate location before running the notebook.
 
+## PowerBI Dashboard
+
+![DashBoard](powerbi.png)
+
 ## Results
 
 The trained model predicts passenger satisfaction based on flight experience data. The evaluation metrics, including accuracy, precision, recall, and F1-score, confirm the model's reliability in identifying satisfied and dissatisfied passengers.
