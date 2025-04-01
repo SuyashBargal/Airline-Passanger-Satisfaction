@@ -1,5 +1,7 @@
 # Airline Passenger Satisfaction Prediction
 
+![Airline Image](Airline_image.jpg)
+
 ## Overview
 
 This project focuses on predicting airline passenger satisfaction using machine learning techniques. The goal is to analyze customer feedback and flight-related features to determine the likelihood of a passenger being satisfied with their experience. The insights derived from this model can help airlines improve customer service and operational efficiency.
@@ -48,11 +50,11 @@ EDA was conducted to understand the patterns in passenger satisfaction:
 ### Key Visualizations
 
 - **Satisfaction Distribution**
-  ![Satisfaction Distribution](images/satisfaction_distribution.png)
+  ![Satisfaction Distribution](Satisfaction_distribution.png)
 - **Customer Type**
-  ![Customer Type](images/flight_class_satisfaction.png)
+  ![Customer Type](Customer_type.png)
 - **Feature Correlation Heatmap**
-  ![Heatmap](images/feature_correlation.png)
+  ![Heatmap](Feature_corr_matrix.png)
 
 ## Model Training & Evaluation
 
@@ -61,6 +63,9 @@ Several machine learning models were trained and evaluated:
 - **Algorithms Used:** Logistic Regression, Decision Tree, Random Forest, XGBoost, CatBoost, and others.
 - **Best Performing Model:** Random Forest classifier achieved the highest accuracy.
 - **Evaluation Metrics Used:** Confusion Matrix, ROC-AUC, Precision, Recall, and F1-score.
+
+## Model Comparision
+  ![Model Accuracy Comparision](Model_acc_comparision.png)
 
 ## Usage
 
